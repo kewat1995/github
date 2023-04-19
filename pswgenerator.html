@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>password generator</title>
+	<link rel="stylesheet" type="text/css" href="passtyle.css">
+</head>
+<body>
+	<div class="main">
+		<div class="box">
+			<span id="pass-box">Testing</span>
+			<div class="row">
+			<div class="left">
+				Password Length
+			</div>
+			<div class="right">
+				<input type="number" id="total-char"  name="" max="30" min="4" value="10">
+			</div>
+		</div>
+		 <div class="row">
+			<label for="upper-case">
+				<div class="left">
+					Contain Uppercae
+				</div>
+			</label>
+			<div class="right">
+				<input type="checkbox" name="" id="upper-case" checked/>
+			</div>
+		</div>
+		 <div class="row"> 
+			<label for="lower-case">
+				<div class="left">
+					Contain Lowercae
+				</div>
+			</label>
+			<div class="right">
+				<input type="checkbox" name="" id="lower-case"/>
+			</div>
+		</div>
+				
+		<div class="row">
+			<label for="number">
+				<div class="left">
+					Contain Number
+				</div>
+			</label>
+			<div class="right">
+				<input type="checkbox" name="" id="number"/>
+			</div>
+		</div>
+		<div class="row">
+			<label for="upper-case">
+				<div class="left">
+					Contain Symbol
+				</div>
+			</label>
+			<div class="right">
+				<input type="checkbox" name="" id="symbol"/>
+			</div>
+		</div>	 
+					
+			 <div class="row">
+                <button id="btn">
+                    Generate
+                </button>
+            </div>	
+			
+
+		</div>
+	</div>
+<script src="password.js"></script>
+</body>
+</html>
